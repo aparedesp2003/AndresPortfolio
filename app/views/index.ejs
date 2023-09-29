@@ -1,0 +1,75 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        tbody {
+            display: table-row-group;
+            vertical-align: middle;
+            border-color: inherit;
+        }
+        table {
+            border-collapse: separate;
+            text-indent: initial;
+            border-spacing: 2px;
+        }
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+    </style>
+</head>
+
+</html><%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+    <!--<img src="img/logo.png" alt="logo">-->
+
+<main class="ontainer">
+<div class="jumbotron">
+
+    <h1>Welcome to <%= title %> Page!</h1>
+    <p>I am Andres Paredes and I enjoying my on developing software</p>
+    <p>My mission for creating this portfolio is to make visible all
+       the projects that I have been working on during this beautiful
+    path of learning the word of programming</p>
+    </div>
+    <table id = "presentation">
+        <tr>
+            <tbody></tbody>
+            <td class = "picture">
+                <img src="/img/USA_Visa_Picture.jpg" alt="Personal Photo" height="300" width="300">
+            </td>
+            <td class = "Paragraphs">
+                <b>A little bit about myself</b>
+                <p class = "MissionStatement">
+                    "Hi Everyone, my name is Andres Paredes. I am a International Student from 
+                    Venezuela. Currently, I am studying Software Engineering Technician at
+                    Centennial College."
+                </p>
+                <p class = "Presentation">
+                    
+                    "My dad's name is Yefri, my mom's is Yraletty. I am the younger of
+                    four brothers, the name of my first brother is Jeffrey, the second 
+                    one is Ricardo, and the last one is Gabriel. Additionally, I have 
+                    dog called Sascha, she is a beatiful schnauzer of 10 years old"
+                </p>
+                    <a href  = "file:///C:/Users/Yefri%20Paredes/Downloads/Resume.pdf" target="_blank">Resume</a>              
+            </td>
+        </tr>
+    </tbody>
+    </table>
+</main>
+
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+
+
+
+   

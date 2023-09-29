@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style type="text/css">
+
+        .jumbotron {
+            margin-top: 15px;
+			margin-bottom: 15px;
+			margin-left: 30%;
+			border-radius: 10px;
+			box-shadow: 5px 5px 5px 5px #666666;
+			padding: 10px;
+			width: 40%;
+			height: 88%;
+            justify-content: center;
+            text-align: center;
+        }
+
+</style>
+
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+    <!--<img src="img/logo.png" alt="logo">-->
+
+<main class="ontainer">
+<div class="jumbotron">
+
+    <h1>Welcome to <%= title %> Page</h1>
+    <p>Please fill the following form if you any doubts, or any recommendation for us!</p>
+
+    <form action="mailto:aparede5@my.centennialcollege.ca" method="post">
+		<fieldset>
+		<legend><h3>Personal Information</h3></legend>
+		<p>
+			<label for="txtFirstName">First Name:</label>
+			<input id="txtFirstName" name="txtFirstName" size="25"  type="text" required="required">
+		</p>
+		<p>
+			<label for="txtLastName">Last Name:</label>
+			<input id="txtLastName" name="txtLastName" size="25"  type="text" required="required">
+		</p>
+		<p>
+		<label>Age: 
+				 <input type = "number" min = "20"  max = "100" step = "1" /></label> (Enter your age please)
+		</p>
+		<p>
+			<label for="txtEmail">Email:</label>
+			<input id="txtEmail" name="txtEmail" size="30" type="email" placeholder="forexample@gmail.com" required="required">
+		</p>
+		<p>
+			<label for="txtPhoneNumber">Phone Number:</label>
+			<input id="txtPhoneNumber" name="txtPhoneNumber" size="25"  type="text" required="required">
+		</p>
+	
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    
+		<legend><h3>Any other commments</h3></legend>
+			<p>
+				<label for="txtOtherComms">Comments:</label> <br />
+				<textarea id="txtOtherComts" cols="40" name="txtOtherComts" placeholder= "If you have any additional comments write them in this box" rows="8"></textarea>
+			</p>
+	</fieldset>
+				<p>
+
+			<input name="btnSubmit" type="submit" value="Complete Registration">
+
+			<input name="btnReset" type="reset" value="Clear Form">
+			</p>
+    </div>
+</main>
+
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+
+
+
+   
