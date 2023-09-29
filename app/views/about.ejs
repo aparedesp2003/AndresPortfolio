@@ -1,13 +1,65 @@
-<%- include ('partials/header.ejs') %>
-<%- include ('partials/main_nav.ejs') %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+
+        body
+        {
+            background-color: #666666;
+        }
+        .container {
+            text-align: center;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff; /* White background for main content */
+            border-radius: 8px; /* Rounded corners for the main content */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+        }
+
+        fieldset {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 40px;
+            border-radius: 10px;    
+            box-shadow: 5px 5px 5px 5px #666666;
+            padding: 30px;
+            width: 75%;
+            height: 100%;
+            text-align: center;
+            justify-content: center;
+        }
+    </style>
+    <%- include ('partials/header.ejs') %>
+    <%- include ('partials/main_nav.ejs') %>
+</head>
+
+
 
     <!--<img src="img/logo.png" alt="logo">-->
 
-<main class="ontainer">
+<main class="container">
 <div class="jumbotron">
 
     <h1>Welcome to <%= title %> Page</h1>
-    <p>Know more about Us</p>
+    <h3>Andres Paredes</h3>
+    <fieldset>
+    <p>
+        I am international student from Venezuela, who arrived to Canada persuing for better opportunities for my studies.
+        I have a family conformed by 6 six members and 1 beatiful dog. My father's name is Yefri, my mother's name is 
+        Yraletty, and my brother's names are Jeffrey, Ricardo and Gabriel; lastly the name of my dog is Sascha, she is an
+        Schnauzer of 10 years old.
+    </p>
+    <p>
+        I decided to start this journey in the programming world at beginnings of the 2023. Currently I am taking my third semester of the 
+        program, where I have had the opportunity to learn some of the key concepts of the engineering, and the programming world with a 
+        main focus on languages such as C#, HTML and Java. Additionally, I have gained experience using agile methodologies such as Scrum
+        meetings, kanbam boards which have help me to developed my skills in a collaborative way together with other developers.
+    </p>
+</fieldset>
     </div>
 </main>
 
