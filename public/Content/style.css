@@ -1,0 +1,94 @@
+.information
+        {
+            margin-top: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;    
+            box-shadow: 5px 5px 5px 5px #666666;
+            padding: 30px;
+            width: 75%;
+            height: 100%;
+            text-align: center;
+        }
+
+        .picture img {
+            margin-bottom: 20px; /* Adjust as needed */
+        }
+
+        .abm-para {
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;    
+            box-shadow: 5px 5px 5px 5px #666666;
+            padding: 30px;
+            width: 75%;
+            height: 30%;
+            text-align: center;
+        }
+
+        .container_ 
+        {
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;    
+            box-shadow: 5px 5px 5px 5px #666666;
+            padding: 30px;
+            width: 75%;
+            height: 100%;
+            text-align: center;
+        }
+
+        .container 
+        {
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;    
+            box-shadow: 5px 5px 5px 5px #666666;
+            padding: 30px;
+            width: 75%;
+            height: 85%;
+            text-align: center;
+        }
+        ul {
+			list-style-image: url("/img/animated-bullet-10.gif");
+		}
+
+        .services {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        
+		
+		.formContainer {
+			float: left;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 10px;
+			box-shadow: 5px 5px 5px 5px #666666;
+			padding: 10px;
+			width: 50%;
+			height: 90%;
+			display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+		.submit input {
+			display: inline-block;
+			margin-right: 10px; /* Add margin between the buttons if needed */
+		}
+		.ContactBox {
+			float: left; /* Move the ContactBox to the left */
+            margin-top: 20px; /* Adjust the margin to create space between form and ContactBox */
+			margin-left: 75px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px 5px #666666;
+            width: 40%; /* Adjust the width as needed */
+			display: flex;
+            justify-content: center;
+            text-align: center;
+			  }

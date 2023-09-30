@@ -13,104 +13,209 @@
     <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css"/>
 
     <style>
-       h1,h3 {
-            text-align: center;
-        }
-
-        p, 
-        b {
-            text-align: center;
-            color: black;
-        }
-        table, tr, td, img
+        
+        /* This CSS Style is to control the Box is visible in the index (Home Page) */
+        .information 
         {
-            text-align: Center;
-        }
-
-        .main-logo {
+            margin-top: 40px;
             margin-left: auto;
             margin-right: auto;
-            display: block;
-        }
-
-        .navbar-brand {
-            margin-left: auto;
-            margin-right: auto;
-            color: black;
-        }
-        .navbar a {
-            text-decoration: none;
-			color: #CDAD00;
-			width: 50%;
-			display: block;
-			padding: 20px 20px;
-			font-size: 15px;
-			text-decoration: uppercase;
-			font-weight: bold;
-			text-align: center;
-        }
-
-        ul.navbar-max {
-            list-style: none;
-            /* Remove the bullet */
-            display: inline;
-            /* Display the list items inline */
-            margin-left: auto;
-            margin-right: auto;
-            font-size: 20px
-        }
-
-        ul.navbar-max li {
-            display: inline-block;
-            /* Make the list items display inline */
-        }
-
-        a:link {
-            text-decoration: none;
-        }
-
-        a:visited {
-            text-decoration: none;
-        }
-
-
-        a:hover {
-            width: 100%;
-			background: #8d8d8d59;
-        }
-
-        a:active {
-            text-decoration: none;
-        }
-
-        html,
-        body {
+            border-radius: 10px;    
+            box-shadow: 5px 5px 5px 5px #666666;
+            padding: 30px;
+            width: 75%;
             height: 100%;
-            margin: 0;
+            text-align: center;
         }
 
-        body {
-            display: flex;
-            flex-direction: column;
+        .picture img {
+            margin-bottom: 20px; /* This is to give space at the bottom of the images  */
         }
 
-        main {
-            flex: 5;
-        }
-
-
-        footer {
-            background-color: #343a40;
-            color: #ffffff;
-            padding: 10px;
-        }
-
-        footer .navbar-text {
+        /* This is to control the box that is visible in the about me page  */
+        .paragraphs {
             margin-left: auto;
             margin-right: auto;
-            font-size: 20px;
-            margin-bottom: 0;
+            border-radius: 10px;    
+            box-shadow: 5px 5px 5px 5px #666666;
+            padding: 30px;
+            width: 60%;
+            height: 60%;
+            text-align: center;
+            overflow: auto;
         }
+
+        /* This is the to control the div class of the products page */
+        .containerTwo
+        {
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;    
+            box-shadow: 5px 5px 5px 5px #666666;
+            padding: 30px;
+            width: 75%;
+            height: 93.5%;
+            text-align: center;
+        }
+
+        /* This is to conttrol all the divs name container */
+        .container 
+        {
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;    
+            box-shadow: 5px 5px 5px 5px #666666;
+            padding: 30px;
+            width: 75%;
+            height: 85%;
+            text-align: center;
+        }
+
+        /* This style assign the arrows for the list */
+        ul {
+			list-style-image: url("/img/animated-bullet-10.gif");
+		}
+
+        /* This is to center the list of the services */
+        .services {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+		
+        /* This is to control the div of the form ubicated in the contact page */
+		.formContainer {
+			float: left;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 10px;
+			box-shadow: 5px 5px 5px 5px #666666;
+			padding: 10px;
+			width: 50%;
+			height: 90%;
+			display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        /* This is to put togethers the bottoms of the form */
+		.submit input {
+			display: inline-block;
+			margin-right: 10px; /
+		}
+
+        /* This is the style for the contac space of the contact page */
+		.ContactBox {
+			float: left; /* Move the ContactBox to the left */
+            margin-top: 20px; /* Adjust the margin to create space between form and ContactBox */
+			margin-left: 75px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px 5px #666666;
+            width: 40%; /* Adjust the width as needed */
+			display: flex;
+            justify-content: center;
+            text-align: center;
+			  }
+
+            /* This is to center all the corresponding h1 and h3 tags */
+            h1,h3 {
+                text-align: center;
+            }
+
+            /* This is to center and set the color of the letters as black for the p and b tags */
+            p, b {
+                text-align: center;
+                color: black;
+            }
+
+            /* This to center the content of the tables and images */
+            table, tr, td, img
+            {
+                text-align: Center;
+            }
+
+            /* This is to set the margin left and right as auto for the main logo of the portfolio */
+            .main-logo {
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+
+            /* This is to set the margin left and right as auto for the portfolio title, and also for the color of the letters */
+            .navbar-brand {
+                margin-left: auto;
+                margin-right: auto;
+                color: black;   
+            }
+
+            /* This is to edit the style of teh navigation bar letter and rest features */
+            .navbar a {
+                text-decoration: none;
+                color: #CDAD00;
+                width: 50%;
+                display: block;
+                padding: 20px 20px;
+                font-size: 15px;
+                text-decoration: uppercase;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            ul.navbar-max {
+                list-style: none;
+                /* Remove the bullet */
+                display: inline;
+                /* Display the list items inline */
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 20px
+            }
+
+            ul.navbar-max li {
+                display: inline-block;
+                /* Make the list items display inline */
+            }
+
+            /* This is to edit the hover of the navigation bar sections */
+            a:hover {
+                width: 100%;
+                background: #8d8d8d59;
+            }
+
+            /* set the height of the webpage */
+            html,
+            body {
+                height: 100%;
+                margin: 0;
+            }
+
+            /* This is to set the position of the content inside the body */
+            body {
+                display: flex;
+                flex-direction: column;
+            }
+
+
+
+            main {
+                flex: 5;
+            }
+
+            /* This last two is edit the footer and navbar text (Footer) of teh webpage */
+            footer {
+                background-color: #343a40;
+                color: #ffffff;
+                padding: 10px;
+            }
+
+            footer .navbar-text {
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 20px;
+                margin-bottom: 0;
+            }
     </style>
 </head>
 <body>

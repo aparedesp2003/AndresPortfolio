@@ -1,43 +1,58 @@
-<%- include ('partials/header.ejs') %>
-<%- include ('partials/main_nav.ejs') %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    
+    <style type="text/css">
 
-    <!--<img src="img/logo.png" alt="logo">-->
+    </style>
 
-<main class="ontainer">
-<div class="jumbotron">
-
-    <h1>Welcome to <%= title %> Page</h1>
-    <h3>Personal Projetcs</h3>
-    <ul>
-        <div class = "firstProject">
-            </li><a href  = "file:///C:/Users/Yefri%20Paredes/Desktop/Andres%20Paredes/Centennial%20College/PROGRAM/1st%20Semester/WID/Assignment%20%231/index.html__StudentWeb.html" target="_blank">My first Page</a></li><br>
-            <p>
-                This was my very first project in the section of web development. Basically, consist in a student information web page.
-                In this page I share a little bit about myself, and my family. Also, I shared what I like to do in my free time
-            </p>
-        </div>
-        <div class = "secondProject">
-            </li><a href  = "file:///C:/Users/Yefri%20Paredes/Desktop/Andres%20Paredes/Centennial%20College/PROGRAM/1st%20Semester/WID/Individual%20Project/homepage.html" target="_blank">Real State Page</a></li><br>
-            <p>
-                I was assigned to this project with the purpose to design the webpage for a real state agent. In the webpage the customer
-                is able to listed available house to the market. The people who is interested in the houses could see a bried description
-                of the property together with more specific details about the building. 
-
-                Each time that I see this project, I feel very proud for my improvement on the desing of web pages
-            </p>
-        </div>
-        <div class = "thirdProject">
-            </li><a href  = "file:///C:/Users/Yefri%20Paredes/Desktop/Andres%20Paredes/Centennial%20College/PROGRAM/Personal%20Projects%20Folder/FC%20_Barcelona_Project/Home%20Page/Homepage.html" target="_blank">FC Barcelona</a></li><br>
-            <p>
-                This is a current project that I am developing. This idea of this project is create a webpage to shared infoirmation with users
-                about the history of my favorite soccer club. Along this webpage you will be able to see important informtion of FC Barcelona such
-                as, the history of the club, the current team and staff, honours along the years, even you will be able to play some entertaiment 
-                games that were developed in the previous semester.
-            </p>
-        </div>
-    </ul>
-    </div>
-</main>
+    <%- include ('partials/header.ejs') %>
+    <%- include ('partials/main_nav.ejs') %>
+</head>
+<body>
+    <main>
+        <h1>Welcome to <%= title %> Page</h1>
+            
+        <div class="containerTwo">
+            <h3>First Product</h3>
+            <ul>
+                <div class = "firstProject">
+                    <img src="img\firstproject.png" alt="First Project" height="300" width="600" style="padding-bottom: 20px;">
+                    <!-- <form action="Assets\firstproject.png" method="get" target="_blank">
+                        <button type = "submit">Show Resume</button> -->
+                    <p style="padding-bottom: 30px;">
+                        This was my very first project in the section of web development. Basically, consist in a student information web page.
+                        In this page I share a little bit about myself, and my family. Also, I shared what I like to do in my free time
+                    </p>
+                </div>
+                <div class = "secondProject">
+                    <h3>Second Product</h3>
+                    <img src="img\secondProject.png" alt="First Project" height="300" width="600" style="padding-bottom: 20px;">                    
+                    <p>
+                        I was assigned to this project with the purpose to design the webpage for a real state agent. In the webpage the customer
+                        is able to listed available house to the market. The people who is interested in the houses could see a bried description
+                        of the property together with more specific details about the building. 
+        
+                        Each time that I see this project, I feel very proud for my improvement on the desing of web pages
+                    </p>
+                </div>
+                <div class = "thirdProject">
+                    <h3>Third Product</h3>
+                    <img src="img\Logo_.png" alt="First Project" height="450" width="600" style="padding-bottom: 20px;">                           <p>
+                        This is a current project that I am developing. This idea of this project is create a webpage to shared infoirmation with users
+                        about the history of my favorite soccer club. Along this webpage you will be able to see important informtion of FC Barcelona such
+                        as, the history of the club, the current team and staff, honours along the years, even you will be able to play some entertaiment 
+                        games that were developed in the previous semester.
+                    </p>
+                </div>
+            </ul>
+            </div>
+        </main>
+</body>
+</html>
 
       <%- include ('partials/bottom_nav.ejs') %>
       <%- include ('partials/footer.ejs') %>
