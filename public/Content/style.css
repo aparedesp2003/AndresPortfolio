@@ -1,94 +1,131 @@
-.information
-        {
-            margin-top: 40px;
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 10px;    
-            box-shadow: 5px 5px 5px 5px #666666;
-            padding: 30px;
-            width: 75%;
-            height: 100%;
-            text-align: center;
-        }
+/* This CSS Style is to control the Box is visible in the index (Home Page) */
+    .information 
+    {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;    
+    box-shadow: 5px 5px 5px 5px #666666;
+    padding: 30px;
+    width: 75%;
+    height: 100%;
+    text-align: center;
+    }
 
-        .picture img {
-            margin-bottom: 20px; /* Adjust as needed */
-        }
+    .picture img {
+    margin-bottom: 20px; /* This is to give space at the bottom of the images  */
+    }
 
-        .abm-para {
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 10px;    
-            box-shadow: 5px 5px 5px 5px #666666;
-            padding: 30px;
-            width: 75%;
-            height: 30%;
-            text-align: center;
-        }
+/* This is to control the box that is visible in the about me page  */
+    .paragraphs {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;    
+    box-shadow: 5px 5px 5px 5px #666666;
+    padding: 30px;
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    overflow: auto;
+    }
 
-        .container_ 
-        {
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 10px;    
-            box-shadow: 5px 5px 5px 5px #666666;
-            padding: 30px;
-            width: 75%;
-            height: 100%;
-            text-align: center;
-        }
+/* This is the to control the div class of the products page */
+    .containerTwo
+    {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;    
+    box-shadow: 5px 5px 5px 5px #666666;
+    padding: 30px;
+    width: 75%;
+    height: 93.5%;
+    text-align: center;
+    }
 
-        .container 
-        {
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 10px;    
-            box-shadow: 5px 5px 5px 5px #666666;
-            padding: 30px;
-            width: 75%;
-            height: 85%;
-            text-align: center;
-        }
-        ul {
-			list-style-image: url("/img/animated-bullet-10.gif");
-		}
+/* This is to conttrol all the divs name container */
+    .container 
+    {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;    
+    box-shadow: 5px 5px 5px 5px #666666;
+    padding: 30px;
+    width: 75%;
+    height: 85%;
+    text-align: center;
+    }
 
-        .services {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+/* This style assign the arrows for the list */
+    ul {
+    list-style-image: url("/img/animated-bullet-10.gif");
+    }
 
-        
-		
-		.formContainer {
-			float: left;
-			margin-left: auto;
-			margin-right: auto;
-			border-radius: 10px;
-			box-shadow: 5px 5px 5px 5px #666666;
-			padding: 10px;
-			width: 50%;
-			height: 90%;
-			display: flex;
-            justify-content: center;
-            text-align: center;
-        }
+/* This is to center the list of the services */
+    .services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
 
-		.submit input {
-			display: inline-block;
-			margin-right: 10px; /* Add margin between the buttons if needed */
-		}
-		.ContactBox {
-			float: left; /* Move the ContactBox to the left */
-            margin-top: 20px; /* Adjust the margin to create space between form and ContactBox */
-			margin-left: 75px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 10px;
-            box-shadow: 5px 5px 5px 5px #666666;
-            width: 40%; /* Adjust the width as needed */
-			display: flex;
-            justify-content: center;
-            text-align: center;
-			  }
+/* This is to control the div of the form ubicated in the contact page */
+    .formContainer {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #666666;
+    padding: 10px;
+    width: 47%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
+
+/* This is to put togethers the bottoms of the form */
+    .submit input {
+    display: inline-block;
+    margin-right: 10px; /
+    }
+
+/* This is the style for the contac space of the contact page */
+    .ContactBox {
+    float: left; /* Move the ContactBox to the left */
+    margin-top: 20px; /* Adjust the margin to create space between form and ContactBox */
+    margin-left: 75px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #666666;
+    width: 43%; /* Adjust the width as needed */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+      }
+
+    /* This is to center all the corresponding h1 and h3 tags */
+    h1,h3 {
+        text-align: center;
+    }
+
+    /* This is to center and set the color of the letters as black for the p and b tags */
+    p, b {
+        text-align: center;
+        color: black;
+    }
+
+    .contactMain {
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center content vertically on the page */
+    margin: 0; /* Remove default body margin */
+    }
+
+
+    /* This to center the content of the tables and images */
+    table, tr, td, img
+    {
+        text-align: Center;
+    }
